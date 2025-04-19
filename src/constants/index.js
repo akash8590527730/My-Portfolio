@@ -4,12 +4,12 @@ import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/big.gif";
 import project5 from "../assets/projects/project-5.webp"
 import project6 from "../assets/projects/project6.jpg"
-export const HERO_CONTENT = `I am a passionate MERN Stack Developer with expertise in building scalable web applications and responsive user interfaces. Adapt in
-JavaScript, React, Node.js, MongoDB, and Express.js, with a keen focus on optimizing performance and enhancing user
+export const HERO_CONTENT = `I am a passionate MEARN Stack Developer with expertise in building scalable web applications and responsive user interfaces. Adapt in
+JavaScript,TypeScript,Angular, React, Node.js, MongoDB, and Express.js, with a keen focus on optimizing performance and enhancing user
 experience. Passionate about collaborating with cross-functional teams to deliver impactful solutions.
 `;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including Angular,React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
