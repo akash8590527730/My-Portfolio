@@ -2,7 +2,8 @@ import project1 from "../assets/projects/project1.avif";
 import project2 from "../assets/projects/ecart.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/big.gif";
-
+import project5 from "../assets/projects/project-5.webp"
+import project6 from "../assets/projects/project6.jpg"
 export const HERO_CONTENT = `I am a passionate MERN Stack Developer with expertise in building scalable web applications and responsive user interfaces. Adapt in
 JavaScript, React, Node.js, MongoDB, and Express.js, with a keen focus on optimizing performance and enhancing user
 experience. Passionate about collaborating with cross-functional teams to deliver impactful solutions.
@@ -34,23 +35,38 @@ export const EXPERIENCES = [
     `,
   },
 ];
-
 export const PROJECTS = [
+  {
+    title: "RecipeNest App",
+    image:project5 ,
+    description:
+      "A user-friendly platform that helps you effortlessly explore a variety of recipes, featuring popular weekly dishes, client testimonials, and a convenient download option.",
+    technologies: ["Angular", "Bootstrap", "TypeScript", "RxJs", "Node.js", "Express.js", "MongoDB"],
+    github: "https://github.com/akash8590527730/Cookpedia.git"
+  },
+  {
+    title: "Voice Recognition AI",
+    image: project6,
+    description:
+      "An innovative voice recognition application built with React and leveraging the Gemini API. State management handled using Context API.",
+    technologies: ["React", "CSS"],
+    github: "https://github.com/akash8590527730/AI-using-React.git"
+  },
   {
     title: "BLOG WEBSITE",
     image: project1,
     description:
-      "A fully functional blog website for creating and managing blogs ,with rich functionality for content creation",
+      "A fully functional blog website for creating and managing blogs, with rich functionality for content creation",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    github:"https://github.com/akash8590527730/BlogApplicationFrontEnd.git"
+    github: "https://github.com/akash8590527730/BlogApplicationFrontEnd.git"
   },
   {
     title: "ECART WEBSITE",
     image: project2,
     description:
       "Implemented an online shopping platform using Redux for state management, improving efficiency in user interaction and cart operations.",
-    technologies: ["HTML", "TAILWIND CSS", "REACT", ],
-    github:"https://github.com/akash8590527730/ECART-.git"
+    technologies: ["HTML", "TAILWIND CSS", "REACT"],
+    github: "https://github.com/akash8590527730/ECART-.git"
   },
   {
     title: "PROJECT FAIR WEBSITE",
@@ -58,7 +74,7 @@ export const PROJECTS = [
     description:
       "A project managing my projects and showcasing projects",
     technologies: ["HTML", "CSS", "React", "MONGODB"],
-    github:"https://github.com/akash8590527730/Project-Fair.git"
+    github: "https://github.com/akash8590527730/Project-Fair.git"
   },
   {
     title: "Snake Game",
@@ -68,6 +84,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JAVASCRIPT"],
     github: "https://github.com/akash8590527730/snakegame.git"
   },
+ 
 ];
 
 export const CONTACT = {
